@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Helvetica", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #272b33;
+  gap: 50px;
+  padding: 40px;
+  justify-content: space-between;
+}
+.cardContainer {
+  border-radius: 15px;
+  display: flex;
+
+  width: 600px;
+  height: 250px;
+  background-color: #3c3e44;
+  gap: 15px;
+}
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px;
+}
+.name {
+  font-weight: 800;
+}
+.name:hover {
+  color: rgb(255, 128, 27);
+}
+.originAndLocationName:hover {
+  color: rgb(255, 128, 27);
+}
+.secondPart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 16px;
+  font-weight: 500;
+}
+.greyText {
+  color: rgb(158, 158, 158);
+  font-size: 16px;
+  font-weight: 500;
+}
+.unknown {
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+}
+.alive {
+  width: 10px;
+  border-radius: 5px;
+  height: 10px;
+  background-color: green;
+}
+.dead {
+  width: 10px;
+  border-radius: 5px;
+  height: 10px;
+  background-color: red;
+}
